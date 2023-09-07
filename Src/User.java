@@ -83,7 +83,6 @@ public class User {
 
     public void printAccountInfo() {
         System.out.println(toString());
-        //System.out.println("Bob" + name + "Yarosh" + surname + "23" + birthday + "October" + month + "2003" + year + "bobyarosh24@email.com" + email + "0934759243" + telephone + "80kg" + weight + "120/70Pa" + press + "10000n" + steps);
     }
     @Override
     public String toString() {
@@ -102,4 +101,5 @@ public class User {
                 '}';
 
     }
+
 }
